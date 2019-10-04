@@ -1,0 +1,165 @@
+html, body {
+    margin: 0!important;
+    padding: 0!important;
+    border: 0!important;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Lato', sans-serif;
+    background-color: #efefef;
+}
+
+header {
+    height: 20%;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0.8em;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #000f21;;
+    background-color: #efefef;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: -1.8em;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    display: inline;
+}
+
+table tr {
+    border-right: 1px solid #121212;
+    border-left: 1px solid #121212;
+}
+
+table tr:first-child {
+    border-top: 1px solid #121212;
+}
+
+table tr:last-child {
+    border-bottom: 1px solid #121212;
+}
+
+td {
+    padding: 0.5em;
+    text-align: center;
+    width: 0.5px;
+    height: 0.5px;
+    font-size: 2px;
+
+}
+
+button {
+    background-color: #bcbcbc;
+    color: #efefef;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    transition: background-color 350ms ease;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #121212;
+    background-color: #dedede;
+}
+
+canvas {
+    display: inline-block;
+    vertical-align: baseline;
+    padding: 0em;
+}
+
+.row {
+     width: 95%;
+     text-align: center;
+     padding-top: 1em;
+     padding-left: 0.8em;
+     padding-right: 0.8em;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 1.2em;
+ }
+
+.row2 {
+    width: 90%;
+    text-align: center;
+    padding-top: 0.8em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0em;
+}
+
+#controls {
+    background-color: #898989;
+    text-align: center;
+}
+
+.transparent{
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+#inputelements {
+    width: 95%;
+    padding: 0.5em;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.inputfield label {
+     color: #dedede;
+ }
+
+#inputelements input,
+#inputelements select {
+    border: none;
+    width: 3.5em;
+    padding: 0.3em;
+    color: #121212;
+    border-radius: 0.3em;
+    text-align: center;
+    margin-right: 0.9em;
+    background-color: #efefef;
+    font-family: 'Raleway', sans-serif;
+}
+
+#inputelements select {
+    width: 11em;
+    text-align: right;
+}
+
+.description{
+    text-align: center;
+    color: #121212;
+    font-size: 0.95em;
+    font-family: 'Raleway', sans-serif;
+}
+
+#graph {
+    text-align: center;
+    padding: 0.2em;
+}
+
+#canvasParent{
+    text-align: center;
+    padding: 0.2em;
+
+}
+
+
